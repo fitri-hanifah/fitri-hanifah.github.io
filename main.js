@@ -6,9 +6,9 @@
 
   /* ---------- Settings: change contact details here ---------- */
   var CONFIG={
-    formEndpoint:"https://formsubmit.co/ajax/fitrihanifah79@yahoo.com", // main inbox (FormSubmit)
-    cc:"zaskiaaretha258@gmail.com",                                     // copy of every message
-    whatsapp:"6282126001022"                                             // international format, no +
+    formEndpoint:"https://formsubmit.co/ajax/fitrihanifah371@gmail.com",       // To: main inbox (FormSubmit)
+    cc:"fitrihanifah79@yahoo.com,zaskiaaretha258@gmail.com",                  // Cc: separate with commas
+    whatsapp:"6282126001022"                                                   // WhatsApp, international format, no +
   };
   var root=document.documentElement;
   var reduce=window.matchMedia("(prefers-reduced-motion:reduce)").matches;
@@ -125,7 +125,7 @@
     "en": {
       "f.sending": "Sending…",
       "f.fail": "The message couldn't be sent from here. Please reach Fitri directly:",
-      "f.activate": "This form isn't activated yet. Open the activation email sent to fitrihanifah79@yahoo.com, then send again.",
+      "f.activate": "This form isn't activated yet. Open the activation email sent to fitrihanifah371@gmail.com, then send again.",
       "ct.copied": "Copied",
       "wa.msg": "Hi Fitri, I came across your portfolio and would like to discuss further.",
       "mail.subject": "Message from {n} — via Portfolio",
@@ -135,7 +135,7 @@
     "id": {
       "f.sending": "Mengirim…",
       "f.fail": "Pesan belum bisa terkirim dari sini. Silakan hubungi Fitri langsung:",
-      "f.activate": "Form ini belum diaktifkan. Buka email aktivasi yang dikirim ke fitrihanifah79@yahoo.com, lalu kirim ulang.",
+      "f.activate": "Form ini belum diaktifkan. Buka email aktivasi yang dikirim ke fitrihanifah371@gmail.com, lalu kirim ulang.",
       "ct.copied": "Tersalin",
       "wa.msg": "Halo Fitri, saya melihat portfolio Anda dan ingin berdiskusi lebih lanjut.",
       "mail.subject": "Pesan dari {n} — via Portfolio",
