@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Fitri Hanifah — Supervisor Finance &amp; Accounting</title>
+  <meta name="description" content="Portfolio of Fitri Hanifah, Supervisor Finance with 10+ years of experience in finance, accounting, and taxation.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Fitri Hanifah — Supervisor Finance &amp; Accounting">
+  <meta property="og:description" content="Portfolio of Fitri Hanifah, Supervisor Finance with 10+ years of experience in finance, accounting, and taxation.">
+  <meta name="theme-color" content="#F1F4F2" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#080C12" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Hanken+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>try{var t=localStorage.getItem("pf-theme");if(t)document.documentElement.setAttribute("data-theme",t);}catch(e){}</script>
+</head>
+<body>
+<div class="bg-ledger" aria-hidden="true"></div>
+<svg class="wm-tile" aria-hidden="true" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <pattern id="wmp" width="360" height="156" patternUnits="userSpaceOnUse" patternTransform="rotate(-24)">
+      <text class="mark" x="0" y="30">FITRI HANIFAH</text>
+      <text class="mark gold" x="150" y="78">FINANCE · ACCOUNTING</text>
+      <text class="mark" x="20" y="126">∑ DEBIT = ∑ CREDIT</text>
+      <text class="mark" x="230" y="150">Rp</text>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#wmp)"/>
+</svg>
+<canvas id="bgfx" aria-hidden="true"></canvas>
+
+<div id="top" aria-hidden="true"></div>
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="#top" aria-label="Home">
+      <span class="monogram">FH</span>
+      <span class="bwrap"><b>Fitri&nbsp;Hanifah</b><small>Supervisor Finance · Accounting</small></span>
+    </a>
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#profil" data-i18n="nav.profile">Profile</a></li>
+        <li><a href="#pengalaman" data-i18n="nav.exp">Experience</a></li>
+        <li><a href="#keahlian" data-i18n="nav.skills">Skills</a></li>
+        <li><a href="#pendidikan" data-i18n="nav.edu">Education</a></li>
+        <li><a href="#kontak" data-i18n="nav.contact">Contact</a></li>
+        <li><a class="nav-ext" href="assets/cv/CV_Fitri_Hanifah_Finance_Accounting_EN.pdf" target="_blank" rel="noopener" title="CV Fitri Hanifah (PDF)">Resume <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></a></li>
+      </ul>
+    </nav>
+    <div class="nav-right">
+      <button class="lang-toggle" id="langToggle" type="button" aria-label="Ganti ke Bahasa Indonesia" title="English / Bahasa Indonesia">
+        <span data-lang="en" class="on">EN</span><span data-lang="id">ID</span>
+      </button>
+      <button class="icon-btn theme-toggle" id="themeToggle" aria-label="Toggle theme" title="Toggle theme">
+        <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      </button>
+      <button class="icon-btn menu-btn" id="menuBtn" aria-label="Menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero" id="profil">
+    <div class="hero-wm" aria-hidden="true">BALANCE</div>
+    <div class="wrap hero-grid">
+      <div class="hero-copy" data-reveal>
+        <span class="eyebrow">Supervisor Finance · Accounting</span>
+        <h1>Fitri<br>Hanifah</h1>
+        <p class="hero-tag" data-i18n="hero.tag">Finance &amp; accounting, <span class="accent">managed</span> with <span class="u">precision</span>.</p>
+        <p class="lead" data-i18n="hero.lead">Accounting graduate (Cum Laude) with 10+ years of experience in finance — AR/AP, taxation, and reporting — most recently serving as <b>Supervisor Finance</b>.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#pengalaman"><span data-i18n="hero.cta1">View experience</span>
+            <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a class="btn btn-ghost" href="#kontak" data-i18n="hero.cta2">Get in touch</a>
+        </div>
+        <div class="hero-meta">
+          <div class="stat"><b><span class="num" data-count="10">10</span><span class="sm">+</span></b><span data-i18n="hero.stat1">Years of experience</span></div>
+          <div class="stat"><b><span class="num" data-count="3.60" data-dec="2">3.60</span></b><span data-i18n="hero.stat2">GPA · Cum Laude</span></div>
+          <div class="stat"><b><span class="num" data-count="3">3</span></b><span data-i18n="hero.stat3">Tax certifications</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual" data-reveal>
+        <div class="photo-stage">
+          <picture>
+            <source srcset="assets/img/fitri-hanifah.webp" type="image/webp">
+            <img class="cutout" src="assets/img/fitri-hanifah.png" alt="Photo of Fitri Hanifah" data-i18n-alt="hero.alt" width="660" height="1143" decoding="async" fetchpriority="high">
+          </picture>
+          <div class="pc-badge">
+            <span class="pb-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></span>
+            <div><b data-i18n="hero.badgeVal">10+ yrs</b><span data-i18n="hero.badgeLab">Experience</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TICKER -->
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track" id="ticker">
+      <span class="tick"><b>MYOB</b><span class="u">▲</span></span>
+      <span class="tick"><b>ZAHIR</b><span class="u">▲</span></span>
+      <span class="tick"><b>E-FAKTUR</b><span class="u">▲</span></span>
+      <span class="tick"><b>CORETAX</b><span class="u">▲</span></span>
+      <span class="tick"><b>DATABASE DJP</b><span class="u">▲</span></span>
+      <span class="tick"><b>MS OFFICE</b><span class="u">▲</span></span>
+      <span class="tick"><b>BREVET A/B/C</b><span class="u">▲</span></span>
+      <span class="tick"><b>SPT PPN</b><span class="u">▲</span></span>
+      <span class="tick"><b>GENERAL LEDGER</b><span class="u">▲</span></span>
+      <span class="tick"><b>PAYROLL</b><span class="u">▲</span></span>
+    </div>
+  </div>
+
+  <!-- SPECIALIZATION -->
+  <section id="spesialisasi">
+    <div class="sec-wm tr" aria-hidden="true">%</div>
+    <div class="wrap">
+      <div class="section-head" data-reveal>
+        <span class="eyebrow" data-i18n="spec.eyebrow">Specialization</span>
+        <h2 data-i18n="spec.h2">My areas of expertise</h2>
+        <p data-i18n="spec.p">More than 10 years handling the full corporate finance cycle — accurate and compliant with standards.</p>
+      </div>
+      <div class="cards">
+        <article class="card" data-n="01" data-reveal>
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z"/><path d="M4 9h16M9 9v11M14 4v5"/></svg></div>
+          <h3 data-i18n="spec.c1h">Finance &amp; AR/AP</h3>
+          <p data-i18n="spec.c1p">Overseeing Accounts Receivable &amp; Accounts Payable, verifying invoices and tax invoices, through to customer collections.</p>
+          <div class="svc-tags"><span>AR / AP</span><span>Invoice</span><span data-i18n="spec.c1t">Collections</span></div>
+        </article>
+        <article class="card" data-n="02" data-reveal>
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 7h6M9 11h6M9 15h4"/><rect x="5" y="3" width="14" height="18" rx="2"/></svg></div>
+          <h3 data-i18n="spec.c2h">Taxation (VAT &amp; Income Tax)</h3>
+          <p data-i18n="spec.c2p">Calculating, paying, and filing VAT &amp; income tax returns (SPT) through e-Faktur and Coretax — backed by Brevet A/B through C.</p>
+          <div class="svc-tags"><span>PPN</span><span>PPh</span><span>SPT</span><span>e-Faktur</span></div>
+        </article>
+        <article class="card" data-n="03" data-reveal>
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><rect x="7" y="12" width="3" height="6"/><rect x="12" y="8" width="3" height="10"/><rect x="17" y="5" width="3" height="13"/></svg></div>
+          <h3 data-i18n="spec.c3h">Reporting, Payroll &amp; Cash</h3>
+          <p data-i18n="spec.c3p">Journal entries to the general ledger, employee payroll, petty cash as cashier, plus sales, budgeting, and cash-flow reports.</p>
+          <div class="svc-tags"><span>General Ledger</span><span>Payroll</span><span>Budgeting</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- EQUATION BAND -->
+  <div class="equation">
+    <div class="wrap">
+      <div class="eq"><em>Assets</em> <span class="op">=</span> Liabilities <span class="op">+</span> Equity</div>
+      <p data-i18n="eq.p">Every number I manage, always in balance.</p>
+    </div>
+  </div>
+
+  <!-- EXPERIENCE -->
+  <section id="pengalaman">
+    <div class="sec-wm tl" aria-hidden="true">↗</div>
+    <div class="wrap">
+      <div class="section-head" data-reveal>
+        <span class="eyebrow" data-i18n="exp.eyebrow">Work experience</span>
+        <h2 data-i18n="exp.h2">Career path</h2>
+        <p data-i18n="exp.p">More than 10 years in finance, rising from Senior Finance to Supervisor Finance.</p>
+      </div>
+      <div class="exp-list">
+        <article class="exp" data-reveal>
+          <div class="exp-head"><h3>PT Kemenangan Andalan Kertas</h3><span class="per" data-i18n="exp1.per">Oct 2018 — Mar 2026</span></div>
+          <div class="role">Supervisor Finance <span class="dur" data-i18n="exp1.dur">8 years</span></div>
+          <ul>
+            <li data-i18n="exp1.b1">Supervised AR and AP activities.</li>
+            <li data-i18n="exp1.b2">Supervised tax activities, particularly VAT, through to SPT filing.</li>
+            <li data-i18n="exp1.b3">Reviewed invoices and VAT tax invoices before distribution to customers.</li>
+            <li data-i18n="exp1.b4">Recorded journal entries and posted to the general ledger, and issued cheques/bilyet giro.</li>
+            <li data-i18n="exp1.b5">Handled reimbursement claims and checked receipts/vouchers from every division.</li>
+            <li data-i18n="exp1.b6">Served as cashier managing petty cash (reimbursements &amp; operating expenses).</li>
+            <li data-i18n="exp1.b7">Calculated and paid employee salaries every month.</li>
+            <li data-i18n="exp1.b8">Prepared monthly reports such as sales and budgeting reports as required by users.</li>
+          </ul>
+        </article>
+        <article class="exp" data-reveal>
+          <div class="exp-head"><h3>PT Mitra Karunia Bersama Jaya</h3><span class="per" data-i18n="exp2.per">Sep 2014 — Aug 2018</span></div>
+          <div class="role">Senior Finance <span class="dur" data-i18n="exp2.dur">4 years</span></div>
+          <ul>
+            <li data-i18n="exp2.b1">Issued invoices and VAT tax invoices through the e-Faktur application and company database.</li>
+            <li data-i18n="exp2.b2">Recorded journal entries and posted to the general ledger.</li>
+            <li data-i18n="exp2.b3">Calculated, paid, and filed VAT returns (SPT PPN) at the end of every month.</li>
+            <li data-i18n="exp2.b4">Collected customer payments (AR) and prepared payment budgets for suppliers (AP).</li>
+            <li data-i18n="exp2.b5">Drafted official letters, memos, meeting minutes, and event/donation proposals.</li>
+            <li data-i18n="exp2.b6">Prepared monthly reports as required by users, such as sales and sales-commission reports.</li>
+            <li data-i18n="exp2.b7">Reviewed and verified document completeness in line with SAK (Indonesian Accounting Standards).</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="keahlian">
+    <div class="sec-wm tr" aria-hidden="true">∑</div>
+    <div class="wrap">
+      <div class="section-head" data-reveal>
+        <span class="eyebrow" data-i18n="sk.eyebrow">Skills</span>
+        <h2>Hard &amp; soft skills</h2>
+        <p data-i18n="sk.p">Technical accounting and finance capabilities, and the work character that supports them.</p>
+      </div>
+      <div class="se-grid">
+        <div data-reveal>
+          <div class="block-title">Hard skills</div>
+          <ul class="hard-list">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg><span data-i18n="hard1">Managing AR / AP</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg><span data-i18n="hard2">Journal entries &amp; general ledger posting (General Journal &amp; Ledger)</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg><span data-i18n="hard3">Managing petty cash as cashier</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg><span data-i18n="hard4">Processing employee payroll &amp; issuing cheques/bilyet giro</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg><span data-i18n="hard5">Preparing invoices, VAT tax invoices, VAT returns, POs, quotations, delivery orders, official letters, memos &amp; meeting minutes</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg><span data-i18n="hard6">Proficient in Ms Office, DJP database, Coretax, e-Faktur, Zahir &amp; MYOB</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg><span data-i18n="hard7">Handling claims / reimbursements from every division</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg><span data-i18n="hard8">Preparing reports: Sales, Budgeting, Payroll &amp; Cash Flow</span></li>
+          </ul>
+        </div>
+        <div data-reveal>
+          <div class="skill-groups">
+            <div class="sg"><h5><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a7 7 0 0 0-4 12.7V18a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-3.3A7 7 0 0 0 12 2z"/><path d="M9 22h6"/></svg>Soft skills</h5>
+              <div class="chips"><span>Multitasking</span><span data-i18n="soft2">Structured</span><span data-i18n="soft3">Proactive</span><span data-i18n="soft4">Quick decision-making</span><span data-i18n="soft5">Responsible</span><span data-i18n="soft6">Teamwork</span></div></div>
+            <div class="sg"><h5><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18"/></svg><span data-i18n="sk.apps">Software proficiency</span></h5>
+              <div class="chips"><span>MYOB</span><span>Zahir</span><span>e-Faktur</span><span>Coretax</span><span data-i18n="app.djp">DJP Database</span><span>Ms Office</span></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION & CERTIFICATION -->
+  <section id="pendidikan">
+    <div class="sec-wm tr" aria-hidden="true">§</div>
+    <div class="wrap">
+      <div class="section-head" data-reveal>
+        <span class="eyebrow" data-i18n="edu.eyebrow">Education &amp; certification</span>
+        <h2 data-i18n="edu.h2">Background &amp; credentials</h2>
+        <p data-i18n="edu.p">Formal accounting education and relevant tax certifications.</p>
+      </div>
+      <div class="se-grid">
+        <div data-reveal>
+          <div class="block-title" data-i18n="edu.title">Education</div>
+          <div class="timeline">
+            <div class="tl-item"><div class="tl-rail"><span class="node"></span><span class="line"></span></div>
+              <div><div class="when" data-i18n="edu1.when">Bachelor's · GPA 3.60/4.00 · Cum Laude</div><h4>Universitas Bung Karno, Jakarta</h4><p data-i18n="edu1.p">Bachelor of Accounting — corporate financial management, management accounting, financial accounting, and taxation.</p></div></div>
+            <div class="tl-item"><div class="tl-rail"><span class="node"></span><span class="line"></span></div>
+              <div><div class="when" data-i18n="edu2.when">Average score 85.00/90.00</div><h4>SMK Negeri 12, Jakarta</h4><p data-i18n="edu2.p">Financial Accounting major — hands-on with accounting software such as MYOB and Zahir.</p></div></div>
+          </div>
+        </div>
+        <div data-reveal>
+          <div class="block-title" data-i18n="edu.sumTitle">Summary</div>
+          <p class="sum-text" data-i18n="edu.sum">A responsible, multitasking team player. My greatest career achievement was a promotion from <b>Senior Finance</b> to <b>Supervisor Finance</b>, backed by more than 10 years managing corporate finance, accounting, and taxation. Completed the Brevet A/B through Brevet C tax courses with a “Good” result.</p>
+        </div>
+      </div>
+      <div class="block-title" data-reveal style="margin-top:46px" data-i18n="edu.certTitle">Certifications</div>
+      <div class="cert-cards">
+        <article class="cert" data-reveal>
+          <div class="cbadge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="6"/><path d="M8.5 13.5L7 22l5-2.5L17 22l-1.5-8.5"/></svg></div>
+          <h4>Brevet C</h4>
+          <span class="issuer">Tax Treaty House &amp; IKPI</span>
+          <ul><li data-i18n="c1a">International Taxation</li><li data-i18n="c1b">Tax Planning &amp; Tax Accounting</li><li data-i18n="c1c">Corporate, Individual &amp; Withholding Income Tax (PPh)</li></ul>
+        </article>
+        <article class="cert" data-reveal>
+          <div class="cbadge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="6"/><path d="M8.5 13.5L7 22l5-2.5L17 22l-1.5-8.5"/></svg></div>
+          <h4>Brevet AB</h4>
+          <span class="issuer" data-i18n="c2.issuer">Institute of Indonesia Chartered Accountants (IAI)</span>
+          <ul><li data-i18n="c2a">VAT &amp; Luxury Goods Sales Tax (PPN &amp; PPnBM)</li><li data-i18n="c2b">Stamp Duty, Land &amp; Building Tax (PBB) &amp; BPHTB</li><li data-i18n="c2c">General Tax Provisions</li></ul>
+        </article>
+        <article class="cert" data-reveal>
+          <div class="cbadge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="6"/><path d="M8.5 13.5L7 22l5-2.5L17 22l-1.5-8.5"/></svg></div>
+          <h4 data-i18n="c3.h">Financial Accounting</h4>
+          <span class="issuer">PT Tridharma Wisesa</span>
+          <ul><li data-i18n="c3a">Recording financial transactions</li><li data-i18n="c3b">Posting to the general ledger</li><li data-i18n="c3c">Computerized accounting (MYOB)</li><li data-i18n="c3d">Trading-company accounting cycle</li></ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="kontak">
+    <div class="sec-wm tl" aria-hidden="true">Rp</div>
+    <div class="wrap contact-grid">
+      <div class="contact-lead" data-reveal>
+        <span class="eyebrow" data-i18n="ct.eyebrow">Contact</span>
+        <h2 data-i18n="ct.h2">Let's connect</h2>
+        <p data-i18n="ct.p">For job opportunities or collaboration in finance &amp; accounting, feel free to reach me through the contacts below.</p>
+        <div class="contact-rows">
+          <div class="crow"><span class="ci"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span>
+            <div class="cmeta"><small>Email</small><span>fitrihanifah79@yahoo.com</span></div><button class="copy-btn" data-copy="fitrihanifah79@yahoo.com" data-i18n="ct.copy">Copy</button></div>
+          <div class="crow"><span class="ci"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h4l2 5-3 2a12 12 0 0 0 5 5l2-3 5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg></span>
+            <div class="cmeta"><small>WhatsApp</small><span>0821 2600 1022</span></div><a class="chat-btn" data-wa href="https://wa.me/6282126001022?text=Hi%20Fitri%2C%20I%20came%20across%20your%20portfolio%20and%20would%20like%20to%20discuss%20further." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.17l-.3-.18-3 .78.8-2.92-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.9-5.8c-.3-.15-1.7-.84-2-.94-.26-.1-.46-.15-.65.14-.2.3-.74.94-.9 1.13-.17.2-.33.22-.62.07-.3-.15-1.26-.46-2.4-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.13.3-.34.44-.5.15-.18.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.65-1.57-.9-2.15-.24-.56-.48-.48-.65-.49h-.56c-.2 0-.5.07-.77.37-.26.3-1 .98-1 2.4s1.03 2.78 1.17 2.97c.15.2 2.02 3.08 4.9 4.32.68.3 1.22.47 1.63.6.68.22 1.3.19 1.8.11.55-.08 1.7-.69 1.94-1.36.24-.67.24-1.24.17-1.36-.07-.12-.26-.2-.56-.34z"/></svg>Chat</a></div>
+          <div class="crow"><span class="ci"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></span>
+            <div class="cmeta"><small data-i18n="ct.loc">Location</small><span data-i18n="ct.locVal">Darmawangsa Residence, Bekasi — West Java</span></div></div>
+        </div>
+        <div class="socials">
+          <a data-wa href="https://wa.me/6282126001022?text=Hi%20Fitri%2C%20I%20came%20across%20your%20portfolio%20and%20would%20like%20to%20discuss%20further." target="_blank" rel="noopener" aria-label="Chat WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.15-1.7-.84-2-.94-.26-.1-.46-.15-.65.14-.2.3-.74.94-.9 1.13-.17.2-.33.22-.62.07-.3-.15-1.26-.46-2.4-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.13.3-.34.44-.5.15-.18.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.65-1.57-.9-2.15-.24-.56-.48-.48-.65-.49l-.56-.01c-.2 0-.5.07-.77.37-.26.3-1 .98-1 2.4s1.03 2.78 1.17 2.97c.15.2 2.02 3.08 4.9 4.32.68.3 1.22.47 1.63.6.68.22 1.3.19 1.8.11.55-.08 1.7-.69 1.94-1.36.24-.67.24-1.24.17-1.36-.07-.12-.26-.2-.56-.34zM12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.17l-.3-.18-3 .78.8-2.92-.2-.3A8.2 8.2 0 1 1 12 20.2z"/></svg></a>
+          <a href="mailto:fitrihanifah79@yahoo.com" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></a>
+          <a href="https://id.linkedin.com/in/fitri-hanifah-7a952b325" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14zM8.34 9.5H5.67V18h2.67V9.5zM7 5.98a1.55 1.55 0 1 0 0 3.1 1.55 1.55 0 0 0 0-3.1zM18.34 18v-4.67c0-2.5-1.34-3.66-3.12-3.66-1.44 0-2.08.79-2.44 1.35V9.5h-2.67V18h2.67v-4.52c0-1.19.23-2.35 1.7-2.35 1.46 0 1.48 1.37 1.48 2.43V18h2.4z"/></svg></a>
+          <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=zaskiaaretha258@gmail.com" target="_blank" rel="noopener" aria-label="Gmail"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22 6.4V18a1.6 1.6 0 0 1-1.6 1.6H19V9.3l-7 5.1-7-5.1v10.3H3.6A1.6 1.6 0 0 1 2 18V6.4a1.6 1.6 0 0 1 2.5-1.3L12 10.5l7.5-5.4A1.6 1.6 0 0 1 22 6.4z"/></svg></a>
+          <a href="https://www.jobstreet.co.id/id/profile/zaskiaaretha258" target="_blank" rel="noopener" aria-label="Jobstreet"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M3 12h18"/></svg></a>
+        </div>
+        <a class="btn btn-ghost cv-dl" href="assets/cv/CV_Fitri_Hanifah_Finance_Accounting_EN.pdf" download="CV_Fitri_Hanifah_Finance_Accounting_EN.pdf"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg><span data-i18n="ct.cv">Download CV (PDF)</span></a>
+      </div>
+
+      <form class="card" id="contactForm" novalidate data-reveal>
+        <div class="field"><label for="f-name" data-i18n="f.name">Name</label><input id="f-name" name="name" type="text" placeholder="Full name" data-i18n-ph="f.namePh" required></div>
+        <div class="field"><label for="f-email">Email</label><input id="f-email" name="email" type="email" placeholder="email@example.com" data-i18n-ph="f.emailPh" required></div>
+        <div class="field"><label for="f-msg" data-i18n="f.msg">Message</label><textarea id="f-msg" name="message" rows="4" placeholder="Tell me what you need…" data-i18n-ph="f.msgPh" required></textarea></div>
+        <div class="hp-field" aria-hidden="true"><label for="f-honey">Leave empty</label><input id="f-honey" name="_honey" type="text" tabindex="-1" autocomplete="off"></div>
+        <button class="btn btn-primary" type="submit" style="width:100%; justify-content:center" data-i18n="f.send">Send message</button>
+        <p class="form-note" data-i18n="f.note">Your message goes straight to Fitri's email inbox.</p>
+        <div class="form-ok" id="formOk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg><span data-i18n="f.ok">Message sent! Fitri will reply to the email you provided.</span></div>
+        <div class="form-fail" id="formFail" role="status" hidden>
+          <span id="formFailMsg">The message couldn't be sent from here. Please reach Fitri directly:</span>
+          <div class="ff-actions">
+            <a class="chat-btn" data-wa href="https://wa.me/6282126001022?text=Hi%20Fitri%2C%20I%20came%20across%20your%20portfolio%20and%20would%20like%20to%20discuss%20further." target="_blank" rel="noopener"><span data-i18n="f.failWa">Chat on WhatsApp</span></a>
+            <span class="ff-mail">fitrihanifah79@yahoo.com</span>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap foot">
+    <p>© 2026 · Fitri Hanifah — Finance &amp; Accounting</p>
+    <a class="up2" href="#top"><span data-i18n="ft.top">Back to top</span> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M6 11l6-6 6 6"/></svg></a>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
